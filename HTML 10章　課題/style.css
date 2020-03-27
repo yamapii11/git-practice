@@ -71,4 +71,8 @@ main{
     margin-right:auto;
   }
 
+  main {
+    width:90%;
+  }
+
 }
