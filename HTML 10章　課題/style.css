@@ -25,7 +25,7 @@ main{
 }
 
 .step-box:last-child{
-  margin-right: 0;
+  margin-right: auto;
 }
 
 .step-img1{
@@ -62,8 +62,13 @@ main{
   margin: 15px 0 5px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px){
   .step-box {
     float:none;
-    }
+    width:90%;
+    margin:20px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
 }
